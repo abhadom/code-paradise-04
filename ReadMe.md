@@ -1,4 +1,4 @@
-<b style="align-center">Code Paradise</b>
+<b>Code Paradise</b> ✨
 <br>
 Desenvolvimento da Atividade do Módulo 4 que pede para <br>
 usar recursos de interfaze com React, relacionamentos entre tabelas <br>
