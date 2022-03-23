@@ -1,0 +1,336 @@
+.container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  padding-top: var(--dl-space-space-doubleunit);
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.Banner {
+  width: 100%;
+  display: flex;
+  z-index: 100;
+  margin-top: var(--dl-space-space-tripleunit);
+  align-items: center;
+  padding-top: 64px;
+  padding-left: 48px;
+  margin-bottom: var(--dl-space-space-tripleunit);
+  padding-right: 48px;
+  flex-direction: column;
+  padding-bottom: 64px;
+  background-size: cover;
+  justify-content: space-between;
+  background-image: url("https://images.unsplash.com/photo-1518665750801-883c188a660d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIyfHxkZXNrJTIwaW5zcGlyYXR8ZW58MHx8fHwxNjQ3NTY0ODgy&ixlib=rb-1.2.1&w=1500");
+}
+.text {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.text01 {
+  max-width: 1400px;
+  text-align: center;
+  padding-left: 150px;
+  margin-bottom: 32px;
+  padding-right: 150px;
+}
+.container1 {
+  width: 100%;
+  height: 692px;
+  display: flex;
+  padding: 48px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.PricingCard {
+  width: 100%;
+  display: flex;
+  padding: 48px;
+  z-index: 100;
+  max-width: 450px;
+  margin-top: var(--dl-space-space-doubleunit);
+  min-height: 450px;
+  transition: 0.3s;
+  align-items: flex-start;
+  padding-top: 32px;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  margin-right: var(--dl-space-space-doubleunit);
+  padding-left: 32px;
+  padding-right: 32px;
+  flex-direction: column;
+  padding-bottom: 32px;
+  justify-content: space-between;
+  background-color: #f1edec;
+}
+.PricingCard:hover {
+  transform: scale(1.02);
+}
+.text08 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 32px;
+  text-transform: uppercase;
+}
+.container2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+  flex-direction: row;
+}
+.text09 {
+  font-size: 1.15rem;
+  margin-top: 32px;
+  font-weight: 300;
+}
+.text12 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.container3 {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 48px;
+  flex-direction: column;
+}
+.text13 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.text15 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.text17 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.navlink {
+  color: var(--dl-color-gray-black);
+  margin-top: auto;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: var(--dl-color-primary-700);
+}
+.PricingCard1 {
+  width: 100%;
+  display: flex;
+  padding: 32px;
+  z-index: 100;
+  max-width: 450px;
+  margin-top: var(--dl-space-space-unit);
+  min-height: 450px;
+  transition: 0.3s;
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  flex-direction: column;
+  background-color: #f1edec;
+}
+.PricingCard1:hover {
+  transform: scale(1.02);
+}
+.text19 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 32px;
+  text-transform: uppercase;
+}
+.container4 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+  flex-direction: row;
+}
+.text20 {
+  font-size: 1.15rem;
+  margin-top: 32px;
+  font-weight: 300;
+}
+.text23 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.text24 {
+  color: var(--dl-color-gray-500);
+  font-size: 0.75rem;
+  margin-bottom: 32px;
+}
+.container5 {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 48px;
+  flex-direction: column;
+}
+.text27 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.text29 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.text31 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.navlink1 {
+  color: var(--dl-color-gray-black);
+  margin-top: auto;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: var(--dl-color-primary-700);
+}
+.PricingCard2 {
+  width: 100%;
+  display: flex;
+  padding: 48px;
+  z-index: 100;
+  max-width: 450px;
+  min-height: 450px;
+  transition: 0.3s;
+  align-items: flex-start;
+  margin-left: 32px;
+  padding-top: 32px;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  padding-left: 32px;
+  padding-right: 32px;
+  flex-direction: column;
+  padding-bottom: 32px;
+  background-color: #f1edec;
+}
+.PricingCard2:hover {
+  transform: scale(1.02);
+}
+.text33 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 32px;
+  text-transform: uppercase;
+}
+.container6 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+  flex-direction: row;
+}
+.text34 {
+  font-size: 1.15rem;
+  margin-top: 32px;
+  font-weight: 300;
+}
+.text37 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.text38 {
+  color: var(--dl-color-gray-500);
+  font-size: 0.75rem;
+  margin-bottom: 32px;
+}
+.container7 {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-doubleunit);
+  flex-direction: column;
+}
+.text41 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.text43 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.text45 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.text47 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.navlink2 {
+  color: var(--dl-color-gray-black);
+  margin-top: auto;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: var(--dl-color-primary-700);
+}
+@media(max-width: 991px) {
+  .text01 {
+    width: 100%;
+  }
+  .container1 {
+    width: 100%;
+    height: 728px;
+  }
+  .PricingCard {
+    width: 100%;
+    padding: 32px;
+    max-width: 100%;
+    align-items: center;
+  }
+  .PricingCard1 {
+    width: 100%;
+    max-width: 100%;
+    align-items: center;
+  }
+  .PricingCard2 {
+    width: 100%;
+    max-width: 100%;
+    align-items: center;
+  }
+}
+@media(max-width: 767px) {
+  .Banner {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .text01 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .container1 {
+    width: 100%;
+    height: 1850px;
+    flex-wrap: wrap;
+  }
+  .PricingCard {
+    width: 100%;
+    max-width: 450px;
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: 32px;
+  }
+  .PricingCard1 {
+    width: 100%;
+    max-width: 450px;
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: 32px;
+  }
+  .PricingCard2 {
+    width: 100%;
+    max-width: 450px;
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 32px;
+  }
+}
+@media(max-width: 479px) {
+  .Banner {
+    padding-top: 48px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 48px;
+  }
+  .PricingCard2 {
+    width: 366px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+}

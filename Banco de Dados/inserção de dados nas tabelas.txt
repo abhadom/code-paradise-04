@@ -1,0 +1,54 @@
+# --- inserção de dados nas tabelas --- #
+
+INSERT INTO CIDADE
+VALUES ('01', 'Londres'),
+('02', 'Amsterdam'),
+('03', 'Roma'),
+('04', 'Paris'),
+('05', 'Barcelona'),
+('06', 'Nova York'),
+('07', 'Honolulu'),
+('08', 'Tokyo'),
+('09', 'Sidney');
+
+INSERT INTO HOTEL
+VALUES ('01', 'Hotel A', '01'),
+('02', 'Hotel B', '02'),
+('03', 'Hotel C', '03'),
+('04', 'Hotel D', '04'),
+('05', 'Hotel E', '05'),
+('06', 'Hotel F', '06'),
+('07', 'Hotel G', '07'),
+('08', 'Hotel H', '08'),
+('09', 'Hotel I', '09');
+
+INSERT INTO CLIENTE
+VALUES ('Mary Doe', 'mary@email.com', '12345678911', '12345678', '912345678'),
+('Kate Doe', 'kate@email.com', '98765432122', '98765432', '912345678'),
+('Bruce Doe', 'bruce@email.com', '65432198733', '32187459', '912345678');
+
+INSERT INTO PACOTE
+VALUES ('062', '12345678911', '06', '06', '2022-02-05', '2022-04-08', ''),
+('074', '98765432122', '02', '02', '2022-04-22', '2022-05-10', ''),
+('086', '65432198733', '05', '05', '2022-03-28', '2022-04-25', '');
+
+INSERT INTO ITINERARIO
+VALUES ('062', '06', '06'),
+('074', '02', '02'),
+('086', '05', '05');
+
+INSERT INTO EUROPA_1
+VALUES ('Londres'),
+('Amsterdam'),
+('Roma');
+
+INSERT INTO EUROPA_2
+VALUES ('Paris'),
+('Barcelona'),
+('Roma');
+
+INSERT INTO VOLTA_MUNDO
+VALUES ('Honolulu'),
+('Nova York'),
+('Tokyo'),
+('Sidney');

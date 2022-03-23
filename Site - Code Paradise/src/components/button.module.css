@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  position: relative;
+}
+.button {
+  color: var(--dl-color-gray-black);
+  border: none;
+  transition: 0.3s;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-doubleunit);
+  border-radius: 50px;
+  padding-right: var(--dl-space-space-doubleunit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  background-color: #dbb7ab;
+}
+
+.rootClassName {
+  align-self: center;
+  margin-top: var(--dl-space-space-doubleunit);
+  margin-left: 0em;
+}
+.rootClassName1 {
+  margin-top: var(--dl-space-space-doubleunit);
+}
+.rootClassName2 {
+  align-self: center;
+  margin-top: var(--dl-space-space-doubleunit);
+  margin-left: var(--dl-space-space-tripleunit);
+}

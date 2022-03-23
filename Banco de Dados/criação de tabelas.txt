@@ -1,0 +1,89 @@
+# --- criação de tabelas --- #
+
+CREATE TABLE CLIENTE 
+( 
+ nome VARCHAR(n) NOT NULL,  
+ e-mail INT NOT NULL,  
+ CPF INT PRIMARY KEY,  
+ senha INT NOT NULL,  
+ telefone INT,  
+); 
+
+CREATE TABLE PACOTE 
+( 
+ id_pacote INT PRIMARY KEY,  
+ CPF INT NOT NULL,  
+ cod_cidade INT NOT NULL,  
+ cod_hotel INT NOT NULL,
+ dia_ida DATE NOT NULL,  
+ dia_volta DATE INT,  
+ id_ue INT,  
+ id_uee INT,  
+ id_mundo INT,  
+); 
+
+CREATE TABLE HOTEL 
+( 
+ cod_hotel INT PRIMARY KEY,  
+ nome VARCHAR(30) NOT NULL,  
+ cod_cidade INT NOT NULL,  
+); 
+
+CREATE TABLE CIDADE 
+( 
+ cod_cidade INT PRIMARY KEY,  
+ nome VARCHAR(20) NOT NULL,  
+); 
+
+CREATE TABLE ITINERARIO 
+( 
+ id_pacote INT PRIMARY KEY,  
+ cod_cidade INT PRIMARY KEY,  
+ cod_hotel INT PRIMARY KEY,  
+); 
+
+CREATE TABLE EUROPA_1 
+( 
+ id_ue INT PRIMARY KEY,  
+ cidade_1 VARCHAR(n) DEFAULT 'Londres',  
+ cidade_2 VARCHAR(n) DEFAULT 'Amsterdam',  
+ cidade_3 VARCHAR(n) DEFAULT 'Roma',  
+); 
+
+CREATE TABLE EUROPA_2 
+( 
+ id_uee INT PRIMARY KEY,  
+ cidade_1 VARCHAR(n) DEFAULT 'Paris',  
+ cidade_2 VARCHAR(n) DEFAULT 'Barcelona',  
+ cidade_3 VARCHAR(n) DEFAULT 'Roma',  
+); 
+
+CREATE TABLE VOLTA_MUNDO 
+( 
+ id_mundo INT PRIMARY KEY,  
+ cidade_1 VARCHAR(n) DEFAULT 'Honolulu',  
+ cidade_2 VARCHAR(n) DEFAULT 'Nova York',  
+ cidade_3 VARCHAR(n) DEFAULT 'Tokyo',  
+ cidade_4 VARCHAR(n) DEFAULT 'Sidney',  
+); 
+
+ALTER TABLE PACOTE ADD FOREIGN KEY(CPF) REFERENCES CLIENTE (CPF)
+
+ALTER TABLE PACOTE ADD FOREIGN KEY(cod_cidade) REFERENCES CIDADE (cod_cidade)
+
+ALTER TABLE PACOTE ADD FOREIGN KEY(id_ue) REFERENCES EUROPA_1 (id_ue)
+
+ALTER TABLE PACOTE ADD FOREIGN KEY(id_uee) REFERENCES EUROPA_2 (id_uee)
+
+ALTER TABLE PACOTE ADD FOREIGN KEY(id_mundo) REFERENCES VOLTA_MUNDO (id_mundo)
+
+ALTER TABLE HOTEL ADD FOREIGN KEY(cod_cidade) REFERENCES CIDADE (cod_cidade)
+
+ALTER TABLE ITINERARIO ADD FOREIGN KEY(id_pacote) REFERENCES PACOTE (id_pacote)
+
+ALTER TABLE ITINERARIO ADD FOREIGN KEY(cod_cidade) REFERENCES CIDADE (cod_cidade)
+
+ALTER TABLE ITINERARIO ADD FOREIGN KEY(cod_hotel) REFERENCES HOTEL (cod_hotel)
+
+
+

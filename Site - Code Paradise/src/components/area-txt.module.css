@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-left: 0px;
+  padding-left: var(--dl-space-space-tripleunit);
+  flex-direction: column;
+  justify-content: center;
+}
+.text {
+  align-self: flex-start;
+}
+.textarea {
+  width: 340px;
+  height: 135px;
+  margin-top: var(--dl-space-space-halfunit);
+}
+.rootClassName {
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: 0px;
+}
